@@ -2,6 +2,7 @@
 $('#button').hover(function(){
     $('#bg').addClass('change');
     $('.triangle').addClass('anim');
+    $(this).text("CLICK ME");
 });
 
 $('#button').mouseout(function(){
